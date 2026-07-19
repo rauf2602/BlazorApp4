@@ -1,0 +1,11 @@
+bin/
+obj/
+publish/
+.vs/
+*.user
+*.suo
+.DS_Store
+build-check-20/
+build-check-mysql/
+old/
+store.db
