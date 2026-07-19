@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace BlazorApp4.Services;
 
-public sealed class MySqlInventoryRepository(IDbContextFactory<AppDbContext> contextFactory) : IInventoryRepository
+public sealed class InventoryRepository(IDbContextFactory<AppDbContext> contextFactory) : IInventoryRepository
 {
     public async Task<List<InventoryItem>> GetAllAsync()
     {
